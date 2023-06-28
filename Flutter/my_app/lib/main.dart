@@ -2,10 +2,16 @@ import 'package:flutter/material.dart';
 // import 'gradient_container.dart';
 // import 'package:my_app/check22';
 import 'package:my_app/auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
   // runApp(const MyApp());
   // check();
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const App());
 }
 
