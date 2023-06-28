@@ -1,13 +1,29 @@
 import 'package:flutter/material.dart';
-import 'gradient_container.dart';
+// import 'gradient_container.dart';
+// import 'package:my_app/check22';
+import 'package:my_app/auth.dart';
 
 void main() {
   // runApp(const MyApp());
   // check();
-  runApp(const MaterialApp(
-      home: Scaffold(
-    body: GradienContainer(),
-  )));
+  runApp(const App());
+}
+
+class App extends StatelessWidget {
+  const App({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'FlutterChat',
+      theme: ThemeData().copyWith(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromARGB(255, 63, 17, 177)),
+      ),
+      home: const AuthScreen(),
+    );
+  }
 }
 
 // void check() {
