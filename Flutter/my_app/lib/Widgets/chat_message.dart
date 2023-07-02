@@ -17,6 +17,8 @@ class _ChatMessageState extends State<ChatMessage> {
     await fcm.requestPermission();
     final token = await fcm.getToken();
     print('token ${token}');
+
+    fcm.subscribeToTopic('chat');
   }
 
   @override
