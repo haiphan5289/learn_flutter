@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1094428261723-csp28nv2ms1hju8nejbht14s21doeqbl.apps.googleusercontent.com</string>
+	<string>1094428261723-k5h6qu99tot4ma9hha328fngp0b2uj24.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1094428261723-csp28nv2ms1hju8nejbht14s21doeqbl</string>
+	<string>com.googleusercontent.apps.1094428261723-k5h6qu99tot4ma9hha328fngp0b2uj24</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAaXrcYDoJ-60Rty6jvXwi6AqxLxLqtInY</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.myApp</string>
+	<string>com.example.myAppFlutter22</string>
 	<key>PROJECT_ID</key>
 	<string>flutter-chat-app-fa266</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1094428261723:ios:db813f13e34a7ba4d36e7e</string>
+	<string>1:1094428261723:ios:7de4dd3f571bf683d36e7e</string>
 </dict>
 </plist>
